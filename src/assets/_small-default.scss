@@ -109,4 +109,7 @@ main {
     clear: both;
 }
   
-  
+figure.photo {width: 100% - $gutterdbl; margin: .5rem $gutter }
+figure.photo img { width: 100%}
+figure.photo figcaption{text-align: center; color: $primaryColor}
+
